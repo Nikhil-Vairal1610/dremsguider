@@ -1,0 +1,11 @@
+*{
+   margin: 0px;
+   width: 0px;
+   font: bold;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.NavBar{
+    height: 50px;
+    width: 100%;
+    background-color: aqua;
+}

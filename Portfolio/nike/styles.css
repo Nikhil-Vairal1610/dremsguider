@@ -1,0 +1,819 @@
+  
+   *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* font-weight: 600; */
+    font-size: 15px;
+}
+.firstNavBar{
+    height: 40px;
+    width: 100%;
+    background-color: #F5F5F5;
+    display: flex;
+}
+.runNikeLogo{
+    height: 100%;
+    width: 20%;
+    /* background-color: blueviolet; */
+}
+.runNikeLogo img{
+    height: 45px;
+    padding-left: 50px;
+    padding-bottom: 5px;
+}
+.menulist{
+    height: 100%;
+    width: 80%;
+    /* background-color: brown; */
+}
+
+.menulist ul{
+    display: flex;
+    gap: 10px;
+    padding-left: 72.50%;
+    padding-top: 10px;
+}
+.menulist ul li{
+ /* background-color: antiquewhite; */
+ height: 28px;
+}
+#StoreBar:hover{
+    color: #b09f9f; 
+}
+
+#helpBar:hover{
+    color: #b09f9f; 
+}
+
+.helpList{
+    height: 300px;
+    width: 250px;
+    background-color: #fff;
+    position: absolute;
+    right: 12%;
+    top: 35px;
+    display: none; 
+    border-radius: 10px;
+    z-index:99999;
+}
+#helpBar:hover + .helpList{
+    display: block;
+}
+.helpList:hover{
+    display: block;
+}
+.unOderList1:hover{
+    display: block;
+}
+.unOderList1{
+height: 100%;
+width: 100%;
+/* background-color: lightgreen; */
+display: flex;
+flex-direction:column;
+padding-left: 25px;
+padding-top: 5px;
+border-radius: 10px;
+color: #666161;
+}
+.unOderList1 p:hover{
+    color: black;
+}
+.unOderList1 h2{
+    color: black;
+}
+
+
+
+#joinBar:hover{
+    color: #b09f9f; 
+}
+#singBar:hover{
+    color: #b09f9f; 
+}
+
+
+
+               /* 2nd navbar */
+.navBar{
+    height: 60px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+} 
+.nikeLogo{
+    height: 100%;
+    width: 20%;
+}
+.nikeLogo img{
+    height: 10px;
+} 
+.menuItems{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+} 
+.menuItems ul{
+    display: flex;
+}
+
+.menuItems li:hover{
+    border-bottom: 2px solid black;
+}
+.list{
+    height: 60px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list2{
+    height: 60px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list3{
+    height: 60px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list4{
+    height: 60px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list5{
+    height: 60px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list6{
+    height: 60px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+           /* homeMenus:hover */
+
+.homeMenus{
+    height: 380px;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 95px;
+    right: 0px;
+    display: none;
+}
+.list:hover + .homeMenus {
+    display: block;
+}
+
+.homeMenus:hover{
+    display: block;
+}
+
+.homeMenus-div{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+     font-size: 15px;
+}
+.home-info1{
+    height: 100%;
+    width: 15%;
+    padding-top: 40px;
+    padding-left: 30px;
+    color: #666161;
+}
+.home-info1 p:hover{
+    color: black;
+}
+.home-info1 h3{
+    color: black;
+}
+.home-info2{
+    height: 100%;
+    width: 15%;
+    padding-top: 40px;
+    padding-left: 30px;
+    color: #666161;
+}
+.home-info2 p:hover{
+    color: black;
+}
+.home-info2 h3{
+    color: black;
+}
+.home-info3{
+    height: 100%;
+    width: 15%;
+    padding-top: 40px;
+     padding-left: 30px;
+     color: #666161;
+    }
+.home-info3 p:hover{
+    color: black;
+}
+.home-info3 h3{
+    color: black;
+}
+.home-info4{
+    height: 100%;
+    width: 15%;
+    padding-top: 40px;
+     padding-left: 30px;
+    color: #666161;
+}
+.home-info4 p:hover{
+    color: black;
+}
+.home-info4 h3{
+    color: black;
+}
+
+           /* .meMenuBar:hover     */
+
+.meMenu{
+    height: 400px;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 95px;
+    right: 0px;
+    display: none;
+
+} 
+.list2:hover +.meMenu{
+    display: block;
+} 
+.meMenu:hover + .meMenu-div{
+    display: block;
+}
+.meMenu:hover{
+    display: block;
+}
+.meMenu-div{
+    height: 115%;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+.me-info1{
+        height: 100%;
+        width: 15%;
+        padding-top: 40px;
+         padding-left: 30px;
+         color: #666161;
+}
+.me-info1 p:hover{
+    color: #000;
+}
+.me-info1 h3{
+    color: #000;
+}
+.me-info2{
+    height: 100%;
+    width: 15%;
+    padding-top: 40px;
+     padding-left: 30px;
+     color: #666161;
+}
+.me-info2 p:hover{
+    color: #000;
+}
+.me-info2 h3{
+    color: #000;
+}
+.me-info3{
+    height: 100%;
+    width: 15%;
+    padding-top: 40px;
+     padding-left: 30px;
+     color: #666161;
+}
+.me-info3 p:hover{
+    color: #000;
+}
+.me-info3 h3{
+    color: #000;
+}
+.me-info4{
+    height: 100%;
+    width: 15%;
+    padding-top: 40px;
+     padding-left: 30px;
+     color: #666161;
+}
+.me-info4 p:hover{
+    color: #000;
+}
+.me-info4 h3{
+    color: #000;
+}
+.me-info5{
+    height: 100%;
+    width: 18%;
+    padding-top: 40px;
+     padding-left: 30px;
+     color: #666161;
+}
+.me-info5 p:hover{
+    color: #000;
+}
+.me-info5 h3{
+    color: #000;
+}
+
+       /* womenMenuBar:hover      */
+
+.womenMenu{
+    height: 400px;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 95px;
+    right: 0px;
+    display: none; 
+}
+.list3:hover +.womenMenu{
+    display: block;
+} 
+.womenMenu:hover + .womenMenu-div{
+    display: block;
+}
+.womenMenu:hover{
+    display: block;
+}
+.womenMenu-div{
+    height: 115%;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+.women-info1{
+        height: 100%;
+        width: 15%;
+        padding-top: 40px;
+         padding-left: 30px;
+         color: #666161;
+}
+.women-info2{
+    height: 100%;
+    width: 15%;
+    padding-top: 40px;
+     padding-left: 30px;
+     color: #666161;
+}
+.women-info3{
+    height: 100%;
+    width: 15%;
+    padding-top: 40px;
+     padding-left: 30px;
+     color: #666161;
+}
+.women-info4{
+    height: 100%;
+    width: 15%;
+    padding-top: 40px;
+     padding-left: 30px;
+     color: #666161;
+}
+.women-info5{
+    height: 100%;
+    width: 18%;
+    padding-top: 40px;
+     padding-left: 30px;
+     color: #666161;
+}
+.womenMenu-div h3{
+      color: #000;
+}
+.womenMenu-div p:hover{
+    color: #000;
+}
+
+
+       /* kideMenu:hover */
+
+.kideMenu{
+    height: 340px;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 95px;
+    right: 0px;
+    display: none; 
+}
+.list4:hover +.kideMenu{
+    display: block;
+} 
+.kideMenu:hover + .kideMenu-div{
+    display: block;
+}
+.kideMenu:hover{
+    display: block;
+}
+.kideMenu-div{
+    height: 115%;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+.Kide-info1{
+        height: 100%;
+        width: 15%;
+        padding-top: 40px;
+         padding-left: 30px;
+         color: #666161;
+}
+.Kide-info2{
+    height: 100%;
+    width: 15%;
+    padding-top: 40px;
+     padding-left: 30px;
+     color: #666161;
+}
+.Kide-info3{
+    height: 100%;
+    width: 15%;
+    padding-top: 40px;
+     padding-left: 30px;
+     color: #666161;
+}
+
+.Kide-info4{
+    height: 100%;
+    width: 15%;
+}
+.kideinfo-div1{
+    height: 50%;
+    width: 100%;
+    padding-top: 40px;
+     padding-left: 30px;
+     color: #666161;
+}
+.kideinfo-div2{
+    height: 50%;
+    width: 100%;
+    padding-top: 20px;
+     padding-left: 30px;
+     color: #666161;
+}
+.Kide-info5{
+    height: 100%;
+    width: 18%;
+    padding-top: 40px;
+     padding-left: 30px;
+     color: #666161;
+}
+.kideMenu-div h3{
+    color: #000;
+}
+.kideMenu-div p:hover{
+    color: #000;
+}
+
+      /* saleMenuBar:hover */
+
+.saleMenu{
+    height: 210px;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 95px;
+    right: 0px;
+    display: none; 
+}
+.list5:hover +.saleMenu{
+    display: block;
+} 
+.saleMenu:hover + .saleMenu-div{
+    display: block;
+}
+.saleMenu:hover{
+    display: block;
+}
+.saleMenu-div{
+    height: 115%;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+.Sale-info1{
+        height: 100%;
+        width: 15%;
+        padding-top: 40px;
+         padding-left: 30px;
+         color: #666161;
+}
+.Sale-info2{
+    height: 100%;
+    width: 15%;
+    padding-top: 40px;
+     padding-left: 30px;
+     color: #666161;
+}
+.Sale-info3{
+    height: 100%;
+    width: 15%;
+    padding-top: 40px;
+     padding-left: 30px;
+     color: #666161;
+}
+.Sale-info4{
+    height: 100%;
+    width: 15%;
+    padding-top: 40px;
+     padding-left: 30px;
+     color: #666161;
+}
+.Sale-info5{
+    height: 100%;
+    width: 15%;
+    padding-top: 40px;
+     padding-left: 30px;
+     color: #666161;
+}
+.saleMenu-div h3{
+   color: #000;
+}
+.saleMenu-div p:hover{
+    color: #000;
+ }
+
+        
+        /* .searchBar */
+
+.searchBar{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Search-line{
+    height: 38px;
+    width: 40%;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    margin-left: 30%;
+}
+
+.Search-line{
+    display: flex;
+}
+
+input{
+    height: 38px;
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    padding-left: 45px;
+    background-color: transparent;
+}
+input::placeholder{
+    font-size: 15px ;
+    color: #353434;
+}
+input:hover{
+    background-color: #e4d9d9;
+}
+
+#Search-icon{
+    position: absolute;
+    height: 38px;
+    width: 40px;
+    background-color: #F5F5F5;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+}
+#Search-icon:hover{
+    background-color: #e4d9d9;
+}
+
+#heart-icon{
+    height: 36px;
+    width: 36px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+
+}
+.ri-heart-line{
+    font-size: 25px;
+}
+#Sbag-icon{
+    height: 36px;
+    width: 36px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.ri-shopping-bag-line{
+    font-size: 25px;
+}
+
+#Sbag-icon:hover{
+    background-color: #e4d9d9;
+}
+#heart-icon:hover{
+    background-color: #e4d9d9; 
+}
+
+
+       /* 3rd .navBar */
+
+.textNavBar{
+    height: 55px;
+    width: 100%;
+    background-color: #F5F5F5;
+} 
+.textNavBar h3{
+    padding-left: 40%;
+    padding-top: 7px;
+}
+.textNavBar h4{
+    padding-left: 43%;
+}
+
+
+       /* viewport */
+
+.viewport{
+    height: 582px;
+    width: 100%;
+    background-color: aquamarine;
+}
+.viewport-img{
+    height: 100%;
+    width: 100%;
+}
+
+
+         /* section-2nd */
+
+.section-2nd{
+    height: 360px;
+    width: 100%;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}  
+.info-section-2nd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}     
+.info-section-2nd h1{
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+
+#line-text2{
+    font-size: 16px;  
+    color: #222;
+}
+#line-text2{
+    font-size: 16px;  
+    color: #222;
+}
+
+#shop-btn{
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+}
+#shop-btn:hover{
+    background-color: #333;
+}
+.featured-div p{
+    font-size: 25px;
+    margin-top: 85px;
+    margin-left: 65px;
+    font-weight: 500px;
+}
+
+
+         /* section-3rd */
+
+
+.section-3rd{
+    height: 900px;
+    width: 100%;
+    background-color: aqua;
+}
+.shoes-img-div-01{
+    height: 450px;
+    width: 100%;
+    background-color: lightgreen;
+    display: flex;
+
+}
+
+.shoes-img-div-a{
+    z-index:99999;
+    width: 50%;
+    background-color: sienna;
+    background-image: url("https://static.nike.com/a/images/f_auto,cs_srgb/w_1536,c_limit/fb30d3ad-8599-474b-b487-84288a84071c/the-6-best-nike-shoes-for-walking.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.shoes-img-div-a h5{
+    margin-top: 45%;
+    color: #fff;
+    margin-left: 35px;
+}
+.shoes-img-div-a h3{
+    color: #fff;
+    margin-left: 35px;
+}
+#Shop-button{
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #000; 
+    margin-left: 35px;  
+}
+
+.shoes-img-div-b{
+    width: 50%;
+    background-color: blueviolet;
+    background-image: url("nike-shoes no-4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.shoes-img-div-02{
+    height: 450px;
+    width: 100%;
+    background-color: lightseagreen;
+    display: flex;
+
+}
+.shoes-img-div-c{
+    width: 50%;
+    background-color: orange;
+    background-size: cover;
+    background-position: center;
+}
+.shoes-img-div-c img{
+    height: 101%;
+    width: 100%;
+}
+.shoes-img-div-d{
+    height: 100%;
+    width: 50%;
+    background-color: yellow;
+}
+.shoes-img-div-d img{
+    height: 101%;
+    width: 100%;
+}

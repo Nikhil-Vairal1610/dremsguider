@@ -1,0 +1,235 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.Skills-section{
+    height: 730px;
+    width: 100%;
+    background-color: rgb(240, 233, 233);  
+}
+
+.firs-name h3{
+    height: 70px;
+    width: 100%;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.firs-name h2{
+    height: 70px;
+    width: 100%;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.firs-name p{
+    height: 70px;
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info{
+    height: 450px;
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+#abc{
+    height:200px ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.info1{
+    height: 90%;
+    width: 15%;
+    background-color: #fff;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.info1 img{
+    height: 60%;
+    width: 50%;
+}
+.info1 h1{
+  font-size: 30px;
+}
+.info2{
+    height: 90%;
+    width: 15%;
+    background-color: #fff;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.info2 img{
+    height: 70%;
+    width: 60%;
+}
+.info2 h1{
+  font-size: 30px;
+}
+
+.info3{
+    height: 90%;
+    width: 15%;
+    background-color: #fff; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info3 img{
+      height: 75%;
+      width: 70%;
+}
+.info3 h1{
+    font-size: 30px;
+}
+.info4{
+    height: 90%;
+    width: 15%;
+    background-color: #fff; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.info4 img{
+    height: 65%;
+    width: 65%;
+}
+.info4 h1{
+  font-size: 30px;
+}
+.info5{
+    height: 90%;
+    width: 15%;
+    background-color: #fff; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.info5 img{
+    height: 70%;
+    width: 65%;
+}
+.info5 h1{
+  font-size: 30px;
+}
+
+
+
+
+#def{
+    height:200px ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.info6{
+    height: 90%;
+    width: 15%;
+    background-color: #fff; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.info6 img{
+    height: 100%;
+    width: 100%;     
+}
+.info6 h1{
+  font-size: 30px;
+}
+.info7{
+    height: 90%;
+    width: 15%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.info7 img{
+    height: 60%; 
+}
+.info7 h1{
+  font-size: 30px;
+}
+.info8{
+    height: 90%;
+    width: 15%;   
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.info8 img{
+    height: 70%;
+    width: 65%;
+}
+.info8 h1{
+  font-size: 30px;
+}
+.info9{
+    height: 90%;
+    width: 15%;
+    background-color: #fff; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.info9 img{
+    height: 100%;
+    width: 100%; 
+    
+}
+.info9 h1{
+    font-size: 30px;
+    margin-bottom: 40px; 
+  }
+.info10{
+    height: 90%;
+    width: 15%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.info10 img{
+    height: 70%;
+    width: 65%;
+}
+.info10 h1{
+  font-size: 30px;
+}

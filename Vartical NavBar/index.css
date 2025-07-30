@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box ;
+    font-family: "Poppins", sans-serif;
+}
+
+ html,body{
+    height: 100%;
+    width: 100%;  
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+}
+
+.NavBar{
+    height: 100%;
+    width:250px;
+    background-color: rgb(222, 215, 215);
+
+}
+.logo-container{
+    height: 60px;
+    width: 100%;
+    /* background-color: lightgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid grey;
+}
+.logo-container img{
+    width: 200px;
+}
+.draft-assistant{
+    height: 92%;
+    width: 100%;
+    /* background-color: lightsalmon; */
+}
+.info{
+    height: 70px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info i{
+    font-size: 35px;
+}
+.info:nth-child(2){
+    background-color: lightgray ;
+    color: red;
+    font-family:sans-serif;
+}
+.info:nth-child(5) i
+{
+    font-size: 18px;
+    margin-right: 5px;
+    color: gray;
+}
+.info:nth-child(6) i
+{
+    font-size: 18px;
+    margin-right: 5px;
+    color: gray;
+}
+.info:nth-child(7) i
+{
+    font-size: 18px;
+    margin-right: 5px;
+    color: gray;
+}
+.info:nth-child(8) i
+{
+    font-size: 18px;
+    margin-right: 5px;
+    color: gray;
+}

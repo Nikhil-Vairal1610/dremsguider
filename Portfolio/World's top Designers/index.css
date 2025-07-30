@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.NavBar{
+    height: 60px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+}
+
+.logo{
+    height: 60px;
+    width: 20%;
+    background-color: salmon;
+}
+img{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.menu{
+    height: 60px;
+    width: 50%;
+    background-color: blueviolet;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: start;
+
+}
+.buttons{
+    height: 60px;
+    width: 30%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#bttn1{
+    height: 42PX;
+    width: 80PX;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+#bttn2{
+    height: 42PX;
+    width: 80PX;
+    background-color: black;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.hero-section{
+    height: 470px;
+    width: 100%;
+    background-color: chartreuse;
+}
+.buttons1{
+    
+}

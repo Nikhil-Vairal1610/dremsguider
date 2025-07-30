@@ -1,0 +1,245 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins", sans-serif;
+}
+.NavBar{
+    height: 50px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    border-bottom: 1px solid grey;
+}
+
+.logo{
+    height: 100%;
+    width: 20%;
+    /* background-color: rgb(226, 43, 147); */
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.letter1{
+    color: rgb(166, 7, 166); 
+  }
+.letter2{
+    color: rgb(192, 71, 192);
+}
+.letter3{
+    color: rgb(236, 97, 113);   
+}
+
+.menu{
+    height: 100%;
+    width: 65%;
+    /* background-color: rgb(43, 226, 134); */
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: end;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+}
+
+.buttons{
+    height: 100%;
+    width: 15%;
+    /* background-color: rgb(226, 43, 43); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+#abc{
+    height: 35px;
+    width: 90px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#i1{
+    font-size: 20px;
+}
+
+.herosection{
+    height: 680px;
+    width: 100%;
+    background-color:  
+    
+    
+    
+    
+    
+    
+    
+    rgb(240, 233, 233);
+    display: flex;
+    font-size: 35px;
+}
+
+.info{
+    height: 100%;
+    width: 60%;
+    /* background-color: salmon; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#info1{
+    font-size: 30px;     
+} 
+#name{
+    margin-left: 70px;
+}
+#p1{
+   font-size: 12px;
+   margin-left: 70px;
+}  
+#last-name{
+    color: rgb(224, 32, 202);
+    margin-left: 70px;
+}
+#first-name{
+    color: rgb(162, 71, 248);
+    margin-left: 70px;
+}
+#p2{
+  font-size: 15px;  
+}
+#p3{
+    font-size: 
+    15px; color: blueviolet;
+}
+.full-s{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+    margin-left: 74px;
+}
+
+
+#btn1{
+    height: 25px;
+    width:20% ;
+    background-color: rgb(72, 72, 234);
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    margin-left: 70px;
+}
+#btn2{
+    height: 25px;
+    width:20% ;
+    background-color: rgb(197, 29, 197);
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+#btn3{
+    height: 25px;
+    width:20% ;
+    background-color: rgb(15, 201, 222);
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+#btn4{
+    height: 25px;
+    width:20% ;
+    background-color: rgb(98, 215, 98);
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+
+#bttn{
+    display: flex;
+    margin-top: 10px;
+    gap: 5px;
+    margin-left: 256px;
+    
+}
+#btn5{
+    height: 25px;
+    width:28% ;
+    background-color: rgb(228, 57, 57);
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+#btn6{
+    height: 25px;
+    width:28% ;
+    background-color: rgb(235, 173, 58);
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+#p4{
+    font-size: 15px;
+     margin-left: 275px;
+      margin-top: 10px;
+  } 
+#info3{
+    margin-top: 30px;
+    margin-left: 70px;
+
+}
+
+#btn01{
+    height: 35px;
+    width: 15% ;
+    background-color: purple;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none; 
+}
+
+#btn02{
+    height: 35px;
+    width: 20% ;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none; 
+}
+#icon{
+    font-size: 22px;
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+    margin-left: 70px;
+}
+
+
+.img{
+    height: 100%;
+    width: 40%;
+}
+
+#png{
+    height: 60%;
+    width: 65%;
+    margin-top: 20%;
+    margin-left: 15%;
+    border-radius: 50%;
+}
+
+

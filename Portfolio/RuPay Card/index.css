@@ -1,0 +1,102 @@
+body{
+    height: 100%;
+    background-color: #f0f0f0;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+}
+.card{
+    width: 380px;
+    height: 230px;     
+    background-color: rgb(170, 182, 189);
+    border-radius: 20px;
+    display: flex;
+  
+}
+
+
+.logo{
+    height: 50px;
+    margin-left: 160px; 
+}
+
+.chip{ 
+    height: 55px;
+    margin-left: 40px;
+}
+
+
+.Pay{ 
+    height: 35px;
+    margin-bottom: 5px;  
+    margin-left: 190px;   
+}
+
+.numbers {
+font-size: 28px;
+margin-left: 58px;         
+}
+
+.date{
+    height: 25PX;
+    display: flex;
+    align-items: center;
+    font-size: 6px;
+    margin-left: 140px;
+    font-weight: bold;
+}
+.date h5{
+    font-size: 10px;     
+}
+
+.info{
+    height: 45px;
+    margin-left: 50px;
+    display: flex;
+    position: relative; 
+    
+}
+
+ .name{
+    height: 30px;    
+  
+ }
+ .name p{
+    height: 15px;
+    font-size: 7px;
+    /* margin-left: 88px; */
+  
+ }
+ #debit{
+   position: absolute;
+   bottom:-20%;
+   right: 60%;
+}
+ 
+
+ .RuPay{
+    height: 45px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: absolute;
+    bottom: -7-0%;
+    right: 0%;
+ }
+ .RuPay img{
+    height: 95px; 
+    margin-left: 55px;
+ }
+ .second-section{
+    position: relative;
+
+ }
+ .date{
+    position: absolute;
+    bottom: 20%;
+    right: 50%;
+ }

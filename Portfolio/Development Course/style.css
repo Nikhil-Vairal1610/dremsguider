@@ -1,0 +1,159 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+ width: 100vw;
+ height: 100vh;
+ background-image: url("tree.jpg");
+ background-repeat:no-repeat ;
+ background-size: 100%;
+}
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    
+    display: flex;
+}
+
+.logo{
+    height: 50px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+   }
+   .logo h1{
+  margin-left: 30px;
+  color:  #FE7200;
+   }
+
+.menu{
+    height: 50px;
+    width: 50%;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.search-buttons{
+    height: 50px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#butn1{
+    background-color: #FE7200;
+    outline: none;
+    border: none;
+    height: 29.6px;
+    width: 15%;
+}
+.search-buttons input{
+    padding: 6px;
+    outline: none;
+    border: 1px solid #FE7200;
+}
+
+
+
+
+
+.main{
+    height: 680px;
+    width: 100%;
+    display: flex;
+} 
+
+
+.info{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+    color: #fff;
+}
+.info  h1{
+   font-size: 500%;
+}
+#h1{
+    font-size: 500%;
+    color: #FE7200; 
+ } 
+#butn2{
+    height: 30px;
+    width: 14%;
+    background-color: #FE7200;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    
+}
+
+.from-section{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.from{
+    height: 70%;
+    width: 45%;
+    background-color: black;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#butn3{
+    height: 35px;
+    width: 90%;
+    color: #FE7200;
+    font-size: 15px;
+    border-radius: 7px;
+}
+ .from input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    height: 29.6px;
+    width: 90%;
+ }
+
+ #butn4{
+    height: 35px;
+    width: 90%;
+    background-color: #FE7200;
+    font-size: 15px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+ }
+ .line{
+    width: 80%;
+    height: 2px;
+    background-color: gray;
+
+ }
+ .from pre,h6{
+    color: white;
+    font-size: 15px;
+ }
+ b{
+    color: #FE7200;
+    font-size: 15px;
+ }
+ .icon{
+    color: #fff;
+    font-size: 25px;
+ }
