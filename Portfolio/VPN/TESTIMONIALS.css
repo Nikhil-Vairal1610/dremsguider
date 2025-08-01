@@ -12,7 +12,7 @@
 }
 
 .Testimonials-section h1{
-    height: 50px;
+    height: 40px;
     width: 120px;
     font-size: 15px;
     color: rgb(34, 34, 125);
@@ -21,7 +21,7 @@
     margin-left: 80px;
 }
 .Testimonials-section h2{
-    height: 80px;
+    height: 60px;
     width: 50%;
     font-size: 20px;
     margin-left: 80px;
@@ -49,12 +49,13 @@
     border: 1px solid rgb(213, 209, 209);
     margin-left: 80px;
 }
-.text1{
+#text1{
     height: 60%;
     width: 100%;
    }
-.text1 p{
+#text1 p{
     margin-left: 20px;
+    font-size: 17px;
 }
 .information1{
     display: flex;
@@ -125,7 +126,7 @@ border-radius: 60%;
     padding-left: 40%;
     margin-top: 20px;
 }
-#info3{
+.info3{
     height: 100%;
     width: 20%;
     background-color: #fff;

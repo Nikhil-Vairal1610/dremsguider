@@ -6,9 +6,10 @@
 }
 
 .Skills-section{
-    height: 730px;
+    height: 680px;
     width: 100%;
     background-color: rgb(240, 233, 233);  
+
 }
 
 .firs-name h3{
@@ -50,7 +51,7 @@
 }
 
 
-#abc{
+#abc5{
     height:200px ;
     width: 100%;
     display: flex;

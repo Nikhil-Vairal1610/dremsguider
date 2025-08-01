@@ -5,7 +5,7 @@
     font-family: "Poppins", sans-serif;
 }
 .About-section{
-    height: 729px;
+    height: 680px;
     width: 100%;
     background-color: rgb(240, 233, 233);  
      display: flex;
@@ -13,18 +13,16 @@
     align-items: end;
     justify-content: end; 
 }
-
+/* 
 .NavBar{
 height: 60px;
 width: 100%;
-/* background-color: aqua; */
 display: flex;
 }
 
 .icon-div{
     height: 100%;
     width: 20%;
-    /* background-color: rgb(10, 74, 53); */
 }
 .icon-div i{
     font-size: 20px;
@@ -34,11 +32,9 @@ display: flex;
     padding-left: 90px;
     padding-top: 15px;
 }
-
 .menu{
     height: 100%;
     width: 60%;
-    /* background-color: rgb(43, 226, 107); */
 }
 .menu h4{
     font-size: 8px;
@@ -46,19 +42,15 @@ display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 15px;
-
 }
 .logo{
     height: 100%;
     width: 20%;
-    /* background-color: chartreuse; */
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 20px;
-
 }
-
 .letter1{
     color: rgb(166, 7, 166); 
     margin-left: 39px;
@@ -70,17 +62,11 @@ display: flex;
 }
 .letter3{
     color: rgb(236, 97, 113);   
-}
-
-
-
-
-
+} */
 
 #h1{
     height: 80px;
     width: 100%;
-    /* background-color: blueviolet; */
     font-size: 50px;
     padding-left: 80px;
     color: blue;
@@ -89,29 +75,22 @@ display: flex;
 .text1{
     height: 90px;
     width: 100%;
-    /* background-color: brown; */
     display: flex;
-    
-
 }
 .text1 p{
     font-size: 11px;
     padding-left: 69%;
-    padding-top: 16px;
-    
-    
+    padding-top: 16px;    
 }
 .image{
     height: 400px;
     width: 100%;
-  /* background-color: rgb(222, 5, 5); */
   display: flex;  
 }
 
 .first-img{
     height: 100%;
     width: 40%;
-    /* background-color:aqua; */
     padding-top: 30px;
     padding-left: 20px;
     gap: 20px;
@@ -131,27 +110,20 @@ display: flex;
     outline: none;
     border: 2px solid blue;
     border-radius:0px 10px 0px 0px ;
-    color: blue;
-    
+    color: blue;   
 }
-
-
 .second-img{
     height: 100%;
     width: 60%;
-    /* background-color:rgb(255, 0, 136);  */
 }
 .second-img img{
     height: 100%;
     width: 70%;
     margin-left: 195px;
 }
-
-
 .info{
     height: 100px;
   width: 100%;
-  /* background-color: rgb(246, 159, 89); */
   display: flex;
   gap: 5px;
   padding-left: 80px;
