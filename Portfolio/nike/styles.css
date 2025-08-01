@@ -1,5 +1,4 @@
-  
-   *{
+*{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -750,11 +749,8 @@ input:hover{
     width: 100%;
     background-color: lightgreen;
     display: flex;
-
 }
-
 .shoes-img-div-a{
-    z-index:99999;
     width: 50%;
     background-color: sienna;
     background-image: url("https://static.nike.com/a/images/f_auto,cs_srgb/w_1536,c_limit/fb30d3ad-8599-474b-b487-84288a84071c/the-6-best-nike-shoes-for-walking.jpg");
@@ -781,28 +777,65 @@ input:hover{
     color: #000; 
     margin-left: 35px;  
 }
-
 .shoes-img-div-b{
     width: 50%;
     background-color: blueviolet;
-    background-image: url("nike-shoes no-4.jpg");
+    background-image: url("./assets/nike-shoes\ no-22.jpg");
     background-position: center;
     background-size: cover;
 }
-
-
+#GetNotited-button{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #000; 
+    margin-left: 35px;   
+}
+.shoes-img-div-b h5{
+    margin-top: 45%;
+    color: #fff;
+    margin-left: 35px;
+}
+.shoes-img-div-b h3{
+    color: #fff;
+    margin-left: 35px;
+}
 .shoes-img-div-02{
     height: 450px;
     width: 100%;
     background-color: lightseagreen;
     display: flex;
-
 }
 .shoes-img-div-c{
     width: 50%;
     background-color: orange;
+    background-image: url("./assets/nike-shoes\ no-11.jpg");
     background-size: cover;
     background-position: center;
+}
+.shoes-img-div-c h5{
+    margin-top: 45%;
+    color: #fff;
+    margin-left: 35px;
+}
+.shoes-img-div-c h3{
+    color: #fff;
+    margin-left: 35px;
+}
+#Shop-button3{
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #000; 
+    margin-left: 35px;  
 }
 .shoes-img-div-c img{
     height: 101%;
@@ -812,8 +845,294 @@ input:hover{
     height: 100%;
     width: 50%;
     background-color: yellow;
+    background-image: url("./assets/nike-shoes\ no-44.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.shoes-img-div-d h5{
+    margin-top: 45%;
+    color: #fff;
+    margin-left: 35px;
+}
+.shoes-img-div-d h3{
+    color: #fff;
+    margin-left: 35px;
+}
+#Shop-button4{
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: black; 
+    margin-left: 35px;  
 }
 .shoes-img-div-d img{
     height: 101%;
     width: 100%;
+}
+
+            /* section-4th  */
+
+.section-4th{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.section-4th h1{
+    position: absolute;
+    top: 15px;
+    left: 80px;
+   font-size: 20px;
+}
+
+.imgs-man-shoes{
+    height: 300px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    gap: 20px;
+}
+
+.man-shoes-1{
+    height: 100%;
+    width: 17%;
+    background-color: lightgreen;
+    background-image: url("./assets/WhatsApp\ Image\ 2025-07-30\ at\ 21.10.38_a587df47.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-left: 40px;
+}
+.man-shoes-2{
+    height: 100%;
+    width: 18%;
+    background-color: lightslategray;
+    background-image: url("./assets/WhatsApp\ Image\ 2025-07-31\ at\ 13.32.33_7e53a6fc.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.man-shoes-3{
+    height: 100%;
+    width: 18%;
+    background-color: yellow;
+    background-image: url("./assets/WhatsApp\ Image\ 2025-07-31\ at\ 13.32.34_3dfa6ed6.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.man-shoes-4{
+    height: 100%;
+    width: 18%;
+    background-image: url("./assets/WhatsApp\ Image\ 2025-07-31\ at\ 13.37.41_bf5fef19.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.man-shoes-5{
+    height: 100%;
+    width: 18%;
+    background-image: url("./assets/WhatsApp\ Image\ 2025-07-31\ at\ 13.32.33_7e53a6fc.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+                  /* section-5th */
+
+.section-5th{
+    height: 680px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #b09f9f;
+
+} 
+.div-h1{
+    height: 80px;
+    width: 100%;
+}
+.div-h1 h1{
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.shoes-img{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    gap: 25px;
+}
+.man-shoes-img1{
+    height: 100%;
+    width: 31%;
+    margin-left: 30px; 
+    background-image: url("./assets/section-5th\(shoes-1\).jpg");
+    background-size: cover;
+    background-position: center;
+}
+.man-shoes-img2{
+    height: 100%;
+    width: 31%;
+    background-image: url("./assets/section-5th\(shoes-1\).jpg");
+    background-size: cover;
+    background-position: center;
+}
+.man-shoes-img3{
+    height: 100%;
+    width: 31%;
+    background-image: url("./assets/section-5th\(shoes-3\).jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.shoes-img-info{
+    height: 80px;
+    width: 100%;
+    display: flex;
+}
+.man-shoes-text1{
+    height: 100%;
+    width: 31%;
+    margin-left: 29px; 
+    padding-left: 20px;
+}
+.man-shoes-text2{
+    height: 100%;
+    width: 31%;
+    margin-left: 30px; 
+    padding-left: 20px;
+}
+.man-shoes-text3{
+    height: 100%;
+    width: 31%;
+    margin-left: 30px; 
+    padding-left: 20px;
+}
+
+           /* section-6th */
+
+.shop-By-Sport-div{
+    height: 680px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #b09f9f;
+    align-items: center;
+    justify-content: center;
+}  
+#shop-By-Sport-h1{
+    height: 60px;
+     width: 100%;
+     font-size: 20px;
+     padding-left: 45px;
+     padding-top: 20px;
+}
+#shop-By-Sport-h1 h2{
+    
+}
+.div-info-img{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    gap: 25px; 
+}
+.shop-By-Sport-img1{
+    height: 100%;
+    width: 31%;
+    margin-left: 30px; 
+    background-image: url("./assets/running.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#Running-butn{
+    margin-top: 90%;
+    margin-left: 40px;
+    height: 38px;
+    width: 90px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+}
+.shop-By-Sport-img2{
+    height: 100%;
+    width: 31%;
+    background-image: url("./assets/football.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#Basketball-butn{
+    margin-top: 90%;
+    margin-left: 40px;
+    height: 38px;
+    width: 90px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+}
+.shop-By-Sport-img3{
+    height: 100%;
+    width: 31%;
+    background-image: url("./assets/basketball.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#Footaball-butn{
+    margin-top: 90%;
+    margin-left: 40px;
+    height: 38px;
+    width: 90px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+}
+
+                 /* end-section */
+
+.end-section{
+    height: 550px;
+    width: 100%;
+    position: relative;
+    padding-top: 50px;
+} 
+.end-section h1{
+    position: absolute;
+    padding-left: 87%;
+    padding-top: 60px;
+    font-size: 18px;
+} 
+.list-div{
+    height: 450Px;
+    width: 60%;
+    display: flex;
+    gap: 20px;
+}
+.resource-list{
+    height: 100%;
+    width: 30%;
+    padding-top: 70px;
+    padding-left: 20px;
+    margin-left: 40px;
+}
+.help-list{
+    height: 100%;
+    width: 30%;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+.company-list{
+    height: 100%;
+    width: 30%;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+.Nike-2025{
+    height: 43px;
+    width: 60%;
+    display: flex;
+    gap: 30px;
+    padding-left: 40px;
 }
